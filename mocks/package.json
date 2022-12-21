@@ -1,0 +1,22 @@
+{
+  "name": "desafio11-rigobello-gonzalo",
+  "version": "1.0.0",
+  "description": "Desafio11-rigobello-gonzalo",
+  "author": "Gonzalo Rigobello",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon --inspect ./src/server.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "mongoose": "6.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
+    "eslint": "8.13.0"
+  }
+}
